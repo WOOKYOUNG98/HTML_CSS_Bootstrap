@@ -1,0 +1,12 @@
+/* https://heropy.blog/css/images/logo.png */
+
+.container .item{
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    margin: 10px;
+    background-image: url("https://heropy.blog/css/images/logo.png");
+    background-size: 80px;
+    background-repeat: no-repeat; /* 반복시키지 않는다 */
+    background-position: bottom left /* 위치를 좌표로 설정할 수도 있고, 키워드로 설정할수도 있다. */
+}
