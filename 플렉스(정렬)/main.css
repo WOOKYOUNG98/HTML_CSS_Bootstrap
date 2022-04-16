@@ -1,0 +1,17 @@
+.container {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+}
+
+.container .item {
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    border: 2px solid black;
+    box-sizing: border-box;
+    display: flex; /* 글자 가운데 정렬 방법 1 */
+    justify-content: center; /* 글자 가운데 정렬 방법 2 */
+    align-items: center; /* 글자 가운데 정렬 방법 3 */
+}
+
